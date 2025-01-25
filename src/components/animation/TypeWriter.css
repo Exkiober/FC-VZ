@@ -1,0 +1,13 @@
+.typewrite {
+  font-family: monospace; /* Optional: Change font style */
+  white-space: nowrap; /* Prevent line breaks */
+  overflow: hidden; /* Hide overflow */
+  border-right: 0.1em solid; /* Cursor effect */
+  animation: blink 1.5s step-end infinite; /* Blinking cursor */
+}
+
+@keyframes blink {
+  50% {
+    border-color: transparent; /* Blink effect */
+  }
+}
